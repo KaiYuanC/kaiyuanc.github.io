@@ -1,6 +1,6 @@
 # Hello! 
 
-Welcome to my personal website (it is *always* in the working)
+Welcome to my personal website (it is *always* work in progress)
 
 ### Tech Stack
 
@@ -9,4 +9,4 @@ Welcome to my personal website (it is *always* in the working)
 
 ### Fun Facts
 
-- I have spent approx. **1** hour on making this website so far!
+- I have spent approx. **1.5** hour on making this website so far!
