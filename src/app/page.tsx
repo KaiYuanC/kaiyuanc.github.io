@@ -1,5 +1,14 @@
+import Home from "../components/home";
+import Nav from "../components/nav";
+import React from "react";
+
 function App() {
-  return <h1>Hello! More information will soon be added here!</h1>
+  return (
+    <>
+      <Nav />
+      <Home />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,24 @@
+{
+    "links" : [
+        {
+            "label": "Work",
+            "href": "/work"
+        },
+        {
+            "label": "Projects",
+            "href": "/projects"
+        },
+        {
+            "label": "Education",
+            "href": "/education"
+        },
+        {
+            "label": "Life",
+            "href": "/life"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ]
+}
