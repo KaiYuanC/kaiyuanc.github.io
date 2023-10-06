@@ -3,12 +3,8 @@ import { links } from "./links.json";
 import styles from "./nav.module.css";
 
 /*
-    - horizontal (name, horizontal(links hardcoded for now)) outside flux, inside fixed distance
-    - bar stick to the top of page
     - name is clickable to return top of page
-    - items selectable
 */
-// links are reusable components, text, href location
 
 type Link = {
   label: string;
@@ -33,7 +29,9 @@ const Links = () => {
 const Nav = () => {
   return (
     <nav className={styles.navBar}>
-      <div>Kai Yuan Chi</div>
+      <div className={styles["name-container"]}>
+        <a href="#home">Kai Yuan Chi</a>
+      </div>
       <Links />
     </nav>
   );

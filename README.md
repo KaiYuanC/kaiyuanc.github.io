@@ -9,4 +9,4 @@ Welcome to my personal website (it is *always* work in progress)
 
 ### Fun Facts
 
-- I have spent approx. **3.5** hour on making this website so far!
+- I have spent approx. **6.5** hour on making this website so far!
