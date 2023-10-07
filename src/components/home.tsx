@@ -3,6 +3,12 @@ import Photos from "./photos";
 import React from "react";
 import styles from "./home.module.css";
 
+/*
+  TODO: 
+  - add small icon to href links
+  - complete contents
+  - check mobile version
+*/
 const Home = () => {
   return (
     <div className={styles.home}>
