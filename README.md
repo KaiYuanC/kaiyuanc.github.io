@@ -1,12 +1,16 @@
 # Hello! 
 
 Welcome to my personal website (it is *always* work in progress)
+You can access it at [kaiyuanc.github.io](https://kaiyuanc.github.io/)
+If you have an idea to make it better, please let me know!
 
 ### Tech Stack
 
 - Next.js: a full stack React Web framework
-
+- Tailwind: CSS
 
 ### Fun Facts
 
-- I have spent approx. **6.5** hour on making this website so far!
+- I realize I didn't really need Next.js for this...
+- I find making the content creative is the hardest part, especially when English is not your strong suit
+- I have spent approx. **10** hours on making this website so far!
