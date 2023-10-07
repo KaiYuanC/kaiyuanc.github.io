@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Photos from "./photos";
 import React from "react";
 import styles from "./home.module.css";
@@ -14,10 +15,11 @@ const Home = () => {
           aldkfja;lkdsfjal;kdjfal;ksdjflkajdfklajsklf;alkdsjfalksjdflkasjdfl
           ajsdlkfjalksdfjaklsdfjalksdjflaksflkajdflk
         </h1>
-        <h1 style={{ fontSize: "1rem" }}>Linkedin</h1>
-        <h1 style={{ fontSize: "1rem" }}>Github</h1>
-        <h1 style={{ fontSize: "1rem" }}>Email</h1>
-        <h1 style={{ fontSize: "1rem", paddingBottom: "100px" }}>How to pronounce my name?</h1>
+        <Link href={'https://www.linkedin.com/in/kaiyuan-chi/'}>Linkedin</Link>
+        <Link href={'https://github.com/KaiYuanC'}>Github</Link>
+        <Link href={'mailto:kaiyuanchi.make@gmail.com'}>Email</Link>
+        <Link href={''}>Some moments in my life</Link>
+        <Link href={''}>How to pronounce my name?</Link>
       </div>
       <Photos />
     </div>

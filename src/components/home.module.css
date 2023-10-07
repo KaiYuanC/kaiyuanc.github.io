@@ -8,7 +8,14 @@
 }
 .homeText {
     position: absolute;
-    padding-top: 12%;
-    padding-left: 36px;
+    margin-top: 12%;
+    padding: 8% 36px;
     max-width: 50%;
+}
+.homeText a {
+    text-decoration: underline;
+}
+.homeText a::after {
+    content:"\a";
+    white-space: pre;
 }

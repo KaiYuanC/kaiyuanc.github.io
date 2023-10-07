@@ -1,0 +1,39 @@
+{
+    "items" : [
+        {
+            "date": "Work & Internships",
+            "location": "/work",
+            "type": "work",
+            "title": "title",
+            "description": "A description of the role and the work, can be empty"
+        },
+        {
+            "date": "Work & Internships",
+            "location": "/work",
+            "type": "work",
+            "title": "title",
+            "description": "A description of the role and the work, can be empty"
+        },
+        {
+            "date": "Work & Internships",
+            "location": "/work",
+            "type": "work",
+            "title": "title",
+            "description": "A description of the role and the work, can be empty"
+        },
+        {
+            "date": "Work & Internships",
+            "location": "/work",
+            "type": "work",
+            "title": "title",
+            "description": "A description of the role and the work, can be empty"
+        },
+        {
+            "date": "Work & Internships",
+            "location": "/work",
+            "type": "work",
+            "title": "title",
+            "description": "A description of the role and the work, can be empty"
+        }
+    ]
+}
