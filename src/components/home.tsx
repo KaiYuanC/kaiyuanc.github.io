@@ -14,13 +14,10 @@ const Home = () => {
           aldkfja;lkdsfjal;kdjfal;ksdjflkajdfklajsklf;alkdsjfalksjdflkasjdfl
           ajsdlkfjalksdfjaklsdfjalksdjflaksflkajdflk
         </h1>
-        <h1 style={{ fontSize: "1rem", paddingBottom: "100px" }}>
-          alkdsjfalksjdflkasjdflajsdlkfjalksdfjaklsdfjalksdjflaksf
-          asdklfjasdlfkjasldkfjalskdfja;lsdjfakl;sdf askldfjalskdjf;alsdjfa;klsd
-          akldsfja;lkdjfalkjdfklajsdfklasjdklf;aj
-          aldkfja;lkdsfjal;kdjfal;ksdjflkajdfklajsklf;alkdsjfalksjdflkasjdfl
-          ajsdlkfjalksdfjaklsdfjalksdjflaksflkajdflk
-        </h1>
+        <h1 style={{ fontSize: "1rem" }}>Linkedin</h1>
+        <h1 style={{ fontSize: "1rem" }}>Github</h1>
+        <h1 style={{ fontSize: "1rem" }}>Email</h1>
+        <h1 style={{ fontSize: "1rem", paddingBottom: "100px" }}>How to pronounce my name?</h1>
       </div>
       <Photos />
     </div>

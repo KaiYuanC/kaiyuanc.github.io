@@ -3,9 +3,9 @@
     justify-content: flex-end;
     margin-top: 48px;
     margin-right: 36px;
+    margin-left: auto;
 }
 .profilePic {
     width: 240px;
-    /* max-width: 20%; */
     aspect-ratio: 9 / 19.5;
 }
