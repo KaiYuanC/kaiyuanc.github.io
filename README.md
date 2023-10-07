@@ -6,8 +6,8 @@ If you have an idea to make it better, please let me know!
 
 ### Tech Stack
 
-- Next.js: a full stack React Web framework
-- Tailwind: CSS
+- [Next.js](https://nextjs.org/): a full stack React Web framework
+- [Tailwind](https://tailwindcss.com/): CSS
 
 ### Fun Facts
 
