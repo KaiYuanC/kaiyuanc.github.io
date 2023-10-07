@@ -1,8 +1,8 @@
 # Hello! 
 
-Welcome to my personal website (it is *always* work in progress)
-You can access it at [kaiyuanc.github.io](https://kaiyuanc.github.io/)
-If you have an idea to make it better, please let me know!
+Welcome to my personal website (it is *always* work in progress)  
+You can access it at [kaiyuanc.github.io](https://kaiyuanc.github.io/)  
+If you have an idea to make it better, please let me know!  
 
 ### Tech Stack
 
