@@ -31,7 +31,7 @@ const Items = () => {
             <div className={styles.itemInfo}>
               <h1>{item.title}</h1>
               <h2>{item.description}</h2>
-              {item.link && <Link href={item.link}>{item.linkText}</Link>}
+              {item.link && <Link href={item.link} rel="noopener noreferrer" target="_blank">{item.linkText}</Link>}
               <h4>
                 {item.location} {item.location && "|"} {item.type}
               </h4>
