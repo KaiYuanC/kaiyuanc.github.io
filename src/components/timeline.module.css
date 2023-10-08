@@ -1,6 +1,43 @@
 .timeline {
     padding: 8% 36px;
 }
+.title {
+    font-size: 4em;
+    font-weight: 200;
+    margin-bottom: 48px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content a {
+    text-decoration: underline;
+}
+.content a::after {
+    content:"\a";
+    white-space: pre;
+}
 .item {
-    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+}
+.date {
+    margin-right: 36px;
+    font-weight: 200;
+}
+.itemInfo h4 {
+    margin-right: 12px;
+    font-size: small;
+    font-weight: 200;
+}
+.itemInfo h1 {
+    font-size: 1em;
+}
+.itemInfo h2 {
+    font-weight: 200;
+    font-size: 14px;
+}
+.itemInfo a {
+    font-size: small;
+    text-decoration: underline;
 }

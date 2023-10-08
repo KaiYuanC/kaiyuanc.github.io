@@ -1,39 +1,175 @@
 {
     "items" : [
         {
-            "date": "Work & Internships",
-            "location": "/work",
-            "type": "work",
-            "title": "title",
-            "description": "A description of the role and the work, can be empty"
+            "date": "Oct. 2023",
+            "location": "Waterloo, Canada",
+            "type": "Education",
+            "title": "Completed my undergrad, officially",
+            "description": "In Computer Science, minor in Combinatorics and Optimization & Computational Mathematics",
+            "link": "",
+            "linkText": ""
         },
         {
-            "date": "Work & Internships",
-            "location": "/work",
-            "type": "work",
-            "title": "title",
-            "description": "A description of the role and the work, can be empty"
+            "date": "May 2023",
+            "location": "New York, US",
+            "type": "Internship",
+            "title": "Started working at Jane Street Capital as a Software Engineer Intern",
+            "description": "Learned to code in ocaml, built internal tools",
+            "link": "",
+            "linkText": ""
         },
         {
-            "date": "Work & Internships",
-            "location": "/work",
-            "type": "work",
-            "title": "title",
-            "description": "A description of the role and the work, can be empty"
+            "date": "Mar. 2023",
+            "location": "",
+            "type": "Life",
+            "title": "Performed with UW Hip Hop on stage for Fashion for Change",
+            "description": "Running from one end to the other end of the stage takes time",
+            "link": "",
+            "linkText": ""
         },
         {
-            "date": "Work & Internships",
-            "location": "/work",
-            "type": "work",
-            "title": "title",
-            "description": "A description of the role and the work, can be empty"
+            "date": "Dec. 2022",
+            "location": "",
+            "type": "Life",
+            "title": "First attempt at playing the guitar",
+            "description": "My fingers were hurting for the first 2 weeks",
+            "link": "",
+            "linkText": ""
         },
         {
-            "date": "Work & Internships",
-            "location": "/work",
-            "type": "work",
-            "title": "title",
-            "description": "A description of the role and the work, can be empty"
+            "date": "Sept. 2022",
+            "location": "Coventry, UK",
+            "type": "Exchange",
+            "title": "Ate lots of potatoes",
+            "description": "Visited 9 cities and studied at the University of Warwick for a term",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Aug. 2022",
+            "location": "",
+            "type": "Life",
+            "title": "Ever considered becoming a barista?",
+            "description": "Considered after making my first latte art rosseta",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "May 2022",
+            "location": "New York, US",
+            "type": "Internship",
+            "title": "Became a Datadog Software Engineer Intern",
+            "description": "Worked full stack for the AAA team and explored many NYC coffee shops",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Apr. 2022",
+            "location": "",
+            "type": "Life",
+            "title": "Filmed a K-pop dance video with friends for the first time",
+            "description": "I invaded in to a U of T dance team as a Waterloo student",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Jan. 2022",
+            "location": "Remote",
+            "type": "Internship",
+            "title": "Became an Intern at Meta Instagram",
+            "description": "Worked on Instagram Reels Recommendation Foundation Engineering",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Dec. 2021",
+            "location": "Ontario, Canada",
+            "type": "Life",
+            "title": "Tried snowboarding for the first time",
+            "description": "Gotta be the true north habitant",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "July 2021",
+            "location": "",
+            "type": "Project",
+            "title": "Joined The Aphrodite Project as an engineer",
+            "description": "Worked on building a algorithmic matchmaking platform for college students from 11 colleges with >36k signups",
+            "link": "https://blog.faire.com/selling/faire-has-expanded-in-europe-to-15-countries/",
+            "linkText": "Read More about lunching in 12 countries"
+        },
+        {
+            "date": "May 2021",
+            "location": "Remote",
+            "type": "Internship",
+            "title": "Became a backend engineer intern at Faire",
+            "description": "Worked on International launch team and brought Faire to 12 new countries with my team",
+            "link": "https://apps.apple.com/us/app/faire-wholesale/id1413340491",
+            "linkText": "Check out the app in app store"
+        }, 
+        {
+            "date": "Dec. 2020",
+            "location": "",
+            "type": "Project",
+            "title": "Eat2Gether with the SwiftUI",
+            "description": "Created the mobile frontend for an app that facilitate restaurant selection among friends",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Oct. 2020",
+            "location": "",
+            "type": "Life",
+            "title": "Made my first batch of successful French macarons",
+            "description": "Inspired by a a macaron store - The Social Blend",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Sept. 2020",
+            "location": "Remote",
+            "type": "Internship",
+            "title": "Became an iOS engineer intern at Faire",
+            "description": "Worked on the Faire iOS app and the Faire live streaming app in Swift",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "May 2020",
+            "location": "Remote",
+            "type": "Internship",
+            "title": "Became a full stack engineer intern at Localintel",
+            "description": "Worked on creating data pipelines in Python, PostgreSQL, and MongoDB",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Sept. 2019",
+            "location": "",
+            "type": "Project",
+            "title": "Joined the Waterloop team as an engineer",
+            "description": "Worked with >80 team members on a hyperloop pod for the Canadian & European Hyperloop Competition",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "May 2019",
+            "location": "Toronto, Canada",
+            "type": "Internship",
+            "title": "Became software engineer intern at TD Bank",
+            "description": "Worked on building app features for mobile payment in Swfit and revamping a website",
+            "link": "",
+            "linkText": ""
+        },
+        {
+            "date": "Sept. 2018",
+            "location": "Waterloo, Canada",
+            "type": "Education",
+            "title": "Started school at the University of Waterloo",
+            "description": "Majoring in Computer Science",
+            "link": "",
+            "linkText": ""
         }
     ]
 }
