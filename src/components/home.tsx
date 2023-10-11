@@ -24,7 +24,7 @@ const Home = () => {
         <Link href={'https://www.linkedin.com/in/kaiyuan-chi/'} rel="noopener noreferrer" target="_blank">Linkedin</Link>
         <Link href={'https://github.com/KaiYuanC'} rel="noopener noreferrer" target="_blank">Github</Link>
         <Link href={'mailto:kaiyuanchi.make@gmail.com'}>Email</Link>
-        <Link href={''}>Some moments in my life</Link>
+        <Link href={'#moments'}>Some moments in my life</Link>
         <Link href={''}>How to pronounce my name?</Link>
       </div>
       <Photos />

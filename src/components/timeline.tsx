@@ -7,7 +7,7 @@ import styles from "./timeline.module.css";
   TODO: 
   - inforce better types below
   - figure out how to highlight/underline in json files
-  - firgure out how to add links efficiently
+  - firgure out how to add links efficiently, create your own component
 
 */
 
@@ -31,7 +31,15 @@ const Items = () => {
             <div className={styles.itemInfo}>
               <h1>{item.title}</h1>
               <h2>{item.description}</h2>
-              {item.link && <Link href={item.link} rel="noopener noreferrer" target="_blank">{item.linkText}</Link>}
+              {item.link && (
+                <Link
+                  href={item.link}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {item.linkText}
+                </Link>
+              )}
               <h4>
                 {item.location} {item.location && "|"} {item.type}
               </h4>
@@ -45,10 +53,11 @@ const Items = () => {
 
 const Timeline = () => {
   return (
-    <div className={styles.timeline}>
+    <div id="moments" className={styles.timeline}>
       <hr className="my-8 h-px border-t-0 bg-black" />
       <div className={styles.title}>Moments</div>
       <div className={styles.content}>
+        <div className={styles.line}></div>
         <Items />
         <div className={styles.filter}>
           <h2>Filter</h2>
@@ -56,7 +65,7 @@ const Timeline = () => {
           <Link href="add later">Projects</Link>
           <Link href="add later">Education</Link>
           <Link href="add later">Life</Link>
-          <Link href="add later">Writing</Link>
+          <Link href="add later">Writings</Link>
         </div>
       </div>
     </div>

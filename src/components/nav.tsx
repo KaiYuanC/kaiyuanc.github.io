@@ -1,9 +1,11 @@
+import Link from 'next/link'
 import React from "react";
 import { links } from "./links.json";
 import styles from "./nav.module.css";
 
 /*
     - name is clickable to return top of page
+    - fix scrolling not completely to the top
 */
 
 type Link = {
@@ -30,7 +32,7 @@ const Nav = () => {
   return (
     <nav className={styles.navBar}>
       <div className={styles["name-container"]}>
-        <a href="#home">Kai Yuan Chi</a>
+        <Link href="/">Kai Yuan Chi</Link>
       </div>
       <Links />
     </nav>
