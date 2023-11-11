@@ -13,18 +13,22 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.homeText}>
-        <h1>Hello! More information will soon be added here!</h1>
-        <h1 style={{ fontSize: "2rem" }}>
-          alkdsjfalksjdflkasjdflajsdlkfjalksdfjaklsdfjalksdjflaksf
-          asdklfjasdlfkjasldkfjalskdfja;lsdjfakl;sdf askldfjalskdjf;alsdjfa;klsd
-          akldsfja;lkdjfalkjdfklajsdfklasjdklf;aj
-          aldkfja;lkdsfjal;kdjfal;ksdjflkajdfklajsklf;alkdsjfalksjdflkasjdfl
-          ajsdlkfjalksdfjaklsdfjalksdjflaksflkajdflk
+        <h1>
+          Hello! I'm Kai Yuan, I also go by Kai.  <br></br>
+          Recently, I finished my undergrad in Computer Science at University of Waterloo.
+        </h1>
+        <h1 style={{ fontSize: "1.5rem" }}>
+          Aadlkfjalsdkfa <br></br>
+          adifjaslkdfjaklsdjfklajsdfklajsdlkfjalksdjfka kdsajflksdf  <br></br>
+          adskfjasdkf jkahdfkajsdfhakdfkajdfa djkahsfjasdfkj  <br></br>
+          asdfjkahsdf ajkfhakjsdfhakj akjdhfkjahdfj  <br></br>
+          adkfjakdjf ajkdshfakjsfh j ajkdhfkjashdfkj asdf jaksdhf kjas<br></br>
+          asjdkfhadf akjsdfhakjshfakjd<br></br>
         </h1>
         <Link href={'https://www.linkedin.com/in/kaiyuan-chi/'} rel="noopener noreferrer" target="_blank">Linkedin</Link>
         <Link href={'https://github.com/KaiYuanC'} rel="noopener noreferrer" target="_blank">Github</Link>
         <Link href={'mailto:kaiyuanchi.make@gmail.com'}>Email</Link>
-        <Link href={'#moments'}>Some moments in my life</Link>
+        <Link href={'#moments'}>What I'm up to?</Link>
         <Link href={''}>How to pronounce my name?</Link>
       </div>
       <Photos />
