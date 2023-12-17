@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
+import StickyBox from "react-sticky-box";
 import { items } from "./timeline-items.json";
 import styles from "./timeline.module.css";
 
@@ -24,6 +27,7 @@ type TimelineItem = {
 const Items = () => {
   return (
     <div>
+      <div className={styles.title}>More about me</div>
       {items.map((item: TimelineItem) => {
         return (
           <div className={styles.item}>
@@ -55,18 +59,19 @@ const Timeline = () => {
   return (
     <div id="moments" className={styles.timeline}>
       <hr className="my-8 h-px border-t-0 bg-black" />
-      <div className={styles.title}>Moments</div>
       <div className={styles.content}>
-        <div className={styles.line}></div>
+        {/* <div className={styles.line}></div> */}
         <Items />
-        <div className={styles.filter}>
-          <h2>Filter</h2>
-          <Link href="add later">Work & Internship</Link>
-          <Link href="add later">Projects</Link>
-          <Link href="add later">Education</Link>
-          <Link href="add later">Life</Link>
-          <Link href="add later">Writings</Link>
-        </div>
+        <StickyBox>
+          <div className={styles.filter}>
+            <h2>Filter</h2>
+            <Link href="add later">Work & Internship</Link>
+            <Link href="add later">Projects</Link>
+            <Link href="add later">Education</Link>
+            <Link href="add later">Life</Link>
+            <Link href="add later">Writings</Link>
+          </div>
+        </StickyBox>
       </div>
     </div>
   );

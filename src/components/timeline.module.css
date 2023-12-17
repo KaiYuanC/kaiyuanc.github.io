@@ -8,6 +8,7 @@
 }
 .content {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     justify-content: space-between;
 }
@@ -41,4 +42,8 @@
 .itemInfo a {
     font-size: small;
     text-decoration: underline;
+}
+.filter {
+    padding-top: 120px;
+    max-height: fit-content;
 }
