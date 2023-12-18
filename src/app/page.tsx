@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Home from "../components/home";
 import Nav from "../components/nav";
 import React from "react";
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <Home />
       <Timeline />
+      <Footer />
     </>
   );
 }

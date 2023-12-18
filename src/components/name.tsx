@@ -3,7 +3,7 @@ import styles from "./name.module.css";
 
 const Name = () => {
   return (
-    <div id="name" className={styles.name}>
+    <div className={styles.name}>
         <h3><b>Kai</b> : with 'ai' in Kite</h3>  
         <h3><b>Yuan</b> : pronounced as 'You-one'</h3>  
         <h3><b>Chi</b> : with 'chi' in Chia seeds, is my last name.</h3>  

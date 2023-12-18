@@ -1,7 +1,13 @@
+"use client";
+
+import React, { useState } from "react";
+
 import Link from "next/link";
+import Name from "./name";
 import Photos from "./photos";
-import React from "react";
+import { Tooltip } from "react-tooltip";
 import styles from "./home.module.css";
+
 /*
   TODO: 
   - add small icon to href links
@@ -10,6 +16,7 @@ import styles from "./home.module.css";
 */
 
 const Home = () => {
+  const [isShown, setIsShown] = useState(false);
   return (
     <div className={styles.home}>
       <div className={styles.homeText}>
@@ -20,9 +27,9 @@ const Home = () => {
           <br></br>
         </h1>
         <h1 style={{ fontSize: "1.4rem" }}>
-          I love systems and experiments <br></br>
-          and also music, coffee shops, dancing, boardgames, and crème brûlées...{" "}
-          <br></br>
+          I like systems and experiments <br></br>
+          and also music, coffee shops, dancing, boardgames, and crème
+          brûlées... <br></br>
           Lately, I've been <br></br>
           asdfjkahsdf ajkfhakjsdfhakj akjdhfkjahdfj <br></br>
           adkfjakdjf ajkdshfakjsfh j ajkdhfkjashdfkj asdf jaksdhf kjas<br></br>
@@ -49,7 +56,14 @@ const Home = () => {
         </Link>
         <Link href={"mailto:kaiyuanchi.make@gmail.com"}>Email</Link>
         <Link href={"#moments"}>More about me</Link>
-        <Link href={"#name"}>How to pronounce my name?</Link>
+        <a data-tooltip-id="my-tooltip-inline">How to pronounce my name?</a>
+        <Tooltip
+          id="my-tooltip-inline"
+          place="bottom"
+          style={{ backgroundColor: "rgb(255, 255, 255)", color: "#222" }}
+        >
+          <Name />
+        </Tooltip>
       </div>
       <Photos />
     </div>
