@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./name.module.css";
 
+// Good to have:
+// add actual voice over
+
 const Name = () => {
   return (
     <div className={styles.name}>
