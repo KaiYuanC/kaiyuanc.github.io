@@ -10,7 +10,7 @@
     aspect-ratio: 9 / 19.5;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .photos {
         display: none;
     }

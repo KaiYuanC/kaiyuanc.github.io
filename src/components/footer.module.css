@@ -5,7 +5,7 @@
     font-style: italic;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600) {
     .footer {
         display: block;
         padding: 4% 24px;

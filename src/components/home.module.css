@@ -37,10 +37,10 @@
     max-height: 1em;
 } */
 .mark {
-    background-color: transparent;
+    background-color: transparent ;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
     .home {
         margin-top: 36px;
         margin-bottom: auto;
@@ -72,6 +72,6 @@
         white-space: pre;
     }
     .mark {
-        background-color: transparent;
+        background-color: transparent        ;
     }
 }
