@@ -13,7 +13,7 @@ function App() {
     <>
       <Nav />
       <Home />
-      <Timeline />
+      {/* <Timeline /> */}
       <Footer />
     </>
   );

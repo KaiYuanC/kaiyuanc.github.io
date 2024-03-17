@@ -1,8 +1,5 @@
 "use client";
 
-import { faArrowDownLong, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from "next/link";
 import Name from "./name";
 import Photos from "./photos";
@@ -30,12 +27,12 @@ const Home = () => {
         </h1>
         <h1 style={{ fontSize: "1.4rem" }}>
           I like <mark className={styles.mark}>systems</mark> and <mark className={styles.mark}>experiments</mark> <br></br>
-          and also music, coffee shops, dancing, boardgames, and crème
-          brûlées... <br></br>
-          Lately, I've been <br></br>
-          asdfjkahsdf ajkfhakjsdfhakj akjdhfkjahdfj <br></br>
-          adkfjakdjf ajkdshfakjsfh j ajkdhfkjashdfkj asdf jaksdhf kjas<br></br>
-          asjdkfhadf akjsdfhakjshfakjd<br></br>
+          and also music, coffee shops, dancing, boardgames, and crème brûlées... <br></br>
+          In the wild, you will find me <br></br>
+          learning from passionate people as a software engineer at work <br></br>
+          exploring new cities, coasts, mountains, and grasslands <br></br>
+          finding numbers and math concepts in everyday life <br></br>
+          and connecting people around me <br></br>
         </h1>
         <Link
           href={"https://www.linkedin.com/in/kaiyuan-chi/"}
@@ -52,7 +49,7 @@ const Home = () => {
           Github
         </Link>
         <Link href={"mailto:kaiyuanchi.make@gmail.com"}>Email </Link>
-        <Link href={"#moments"}>More about me <FontAwesomeIcon icon={faArrowDownLong} /> </Link>
+        {/* <Link href={"#moments"}>More about me <FontAwesomeIcon icon={faArrowDownLong} /> </Link> */}
         <a data-tooltip-id="my-tooltip-inline">How to pronounce my name?</a>
         <Tooltip
           id="my-tooltip-inline"

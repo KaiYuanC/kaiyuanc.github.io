@@ -9,16 +9,8 @@
             "href": "/projects"
         },
         {
-            "label": "Education",
-            "href": "/education"
-        },
-        {
-            "label": "Life",
-            "href": "/life"
-        },
-        {
-            "label": "Writings",
-            "href": "/Writings"
+            "label": "Writing",
+            "href": "/Writing"
         }
     ]
 }
