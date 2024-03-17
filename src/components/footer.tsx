@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.title}></div>
       <h1>Let's add a quote here to end this whole webpage</h1>
       <br></br>
-      <h1>- Adam Smith</h1>
+      <h1>- Unknown Someone</h1>
     </div>
   );
 };

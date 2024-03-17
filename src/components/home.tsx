@@ -19,13 +19,13 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.homeText}>
-        <h1>
+        <h2 className={styles.smalltext}>
           Hello! I'm Kai Yuan, I also go by Kai. <br></br>
           Recently, I finished my undergrad in Computer Science at University of
           Waterloo.
           <br></br>
-        </h1>
-        <h1 style={{ fontSize: "1.4rem" }}>
+        </h2>
+        <h1 className={styles.bigtext}>
           I like <mark className={styles.mark}>systems</mark> and <mark className={styles.mark}>experiments</mark> <br></br>
           and also music, coffee shops, dancing, boardgames, and crème brûlées... <br></br>
           In the wild, you will find me <br></br>
@@ -59,7 +59,7 @@ const Home = () => {
           <Name />
         </Tooltip>
       </div>
-      <Photos />
+      <Photos/>
     </div>
   );
 };

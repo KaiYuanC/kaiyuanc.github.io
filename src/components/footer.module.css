@@ -4,3 +4,14 @@
 .footer h1 {
     font-style: italic;
 }
+
+@media (max-width: 1200px) {
+    .footer {
+        display: block;
+        padding: 4% 24px;
+    }
+    .footer h1 {
+        font-style: italic;
+        font-size: 0.7em;
+    }
+}

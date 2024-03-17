@@ -6,13 +6,19 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    z-index: 1100;
+    z-index: 1;
 }
 .homeText {
     position: absolute;
     margin-top: 12%;
     padding: 8% 36px;
     max-width: 80%;
+}
+.bigtext{
+    font-size: 1.4em;
+}
+.smalltext{
+    font-size: 1em;
 }
 .homeText a {
     text-decoration: underline;
@@ -32,4 +38,40 @@
 } */
 .mark {
     background-color: transparent;
+}
+
+@media (max-width: 1200px) {
+    .home {
+        margin-top: 36px;
+        margin-bottom: auto;
+        width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+        justify-content: left;
+        position: static;
+    }
+    .homeText {
+        position: static;
+        margin-top: 12%;
+        padding: 4% 24px;
+        max-width: 80%;
+    }
+    .bigtext{
+        font-size: 1em;
+    }
+    .smalltext{
+        font-size: 0.5em;
+    }
+    .homeText a {
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    .homeText a::after {
+        content:"\a";
+        white-space: pre;
+    }
+    .mark {
+        background-color: transparent;
+    }
 }
