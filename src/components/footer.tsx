@@ -6,9 +6,9 @@ const Footer = () => {
     <div className={styles.footer}>
       <hr className="my-8 h-px border-t-0 bg-black" />
       <div className={styles.title}></div>
-      <h1>Let's add a quote here to end this whole webpage</h1>
+      <h1>Exemplary persons are not mere vessels.</h1>
       <br></br>
-      <h1>- Unknown Someone</h1>
+      <h1>- Confucius</h1>
     </div>
   );
 };

@@ -1,0 +1,46 @@
+.writinglist {
+    padding: 4% 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    font-size: 3em;
+    font-weight: 200;
+    height: fit-content;
+    position: sticky;
+    top: 60px;
+}
+.item {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    display: flex;
+}
+.date {
+    margin-right: 36px;
+    font-weight: 200;
+}
+.itemInfo h4 {
+    margin-right: 12px;
+    font-size: small;
+    font-weight: 200;
+}
+.itemInfo h1 {
+    font-size: 1em;
+}
+.itemInfo h2 {
+    font-weight: 200;
+    font-size: 14px;
+}
+.itemInfo a {
+    font-size: small;
+    text-decoration: underline;
+}
+@media (max-width: 600) {
+    .writinglist {
+        display: block;
+        padding: 4% 24px;
+    }
+    .title {
+        font-size: 2em;
+    }    
+}

@@ -20,7 +20,7 @@ const Links = () => {
       {links.map((link: Link) => {
         return (
           <div key={link.href} className={styles["link"]}>
-            <a href={link.href}>{link.label}</a>
+            <Link href={link.href}>{link.label}</Link>
           </div>
         );
       })}

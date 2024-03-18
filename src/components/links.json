@@ -1,16 +1,16 @@
 {
     "links" : [
         {
-            "label": "Work & Internships",
+            "label": "Work & Internship",
             "href": "/work"
         },
         {
-            "label": "Projects",
-            "href": "/projects"
+            "label": "Project",
+            "href": "/project"
         },
         {
             "label": "Writing",
-            "href": "/Writing"
+            "href": "/writing"
         }
     ]
 }

@@ -12,7 +12,6 @@ import styles from "./home.module.css";
   - create a customized component for link with icon
   - add small icon to href links
   - complete contents
-  - check mobile version
 */
 
 const Home = () => {
@@ -28,11 +27,11 @@ const Home = () => {
         <h1 className={styles.bigtext}>
           I like <mark className={styles.mark}>systems</mark> and <mark className={styles.mark}>experiments</mark> <br></br>
           and also music, coffee shops, dancing, boardgames, and crème brûlées... <br></br>
-          In the wild, you will find me <br></br>
+          Lately, I've been <br></br>
           learning from passionate people as a software engineer at work <br></br>
           exploring new cities, coasts, mountains, and grasslands <br></br>
-          finding numbers and math concepts in everyday life <br></br>
-          and connecting people around me <br></br>
+          finding numbers and math in everyday life <br></br>
+          and connecting with people around me, including you! <br></br>
         </h1>
         <Link
           href={"https://www.linkedin.com/in/kaiyuan-chi/"}

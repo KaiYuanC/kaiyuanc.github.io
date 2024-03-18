@@ -1,0 +1,13 @@
+{
+    "items" : [
+        {
+            "date": "Oct. 2023",
+            "location": "Waterloo, Canada",
+            "type": "Education",
+            "title": "Completed my undergrad!",
+            "description": "(this is a test post and will add more in the future) I want this line to be very long In Computer Science, minor in Combinatorics and Optimization & Computational Mathematics",
+            "link": "",
+            "linkText": ""
+        }
+    ]
+}
