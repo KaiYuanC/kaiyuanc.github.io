@@ -24,6 +24,7 @@ const Home = () => {
           Waterloo.
           <br></br>
         </h2>
+        <br></br>
         <h1 className={styles.bigtext}>
           I like <mark className={styles.mark}>systems</mark> and <mark className={styles.mark}>experiments</mark> <br></br>
           and also music, coffee shops, dancing, boardgames, and crème brûlées... <br></br>
@@ -33,6 +34,7 @@ const Home = () => {
           finding numbers and math in everyday life <br></br>
           and connecting with people around me, including you! <br></br>
         </h1>
+        <br></br>
         <Link
           href={"https://www.linkedin.com/in/kaiyuan-chi/"}
           rel="noopener noreferrer"
