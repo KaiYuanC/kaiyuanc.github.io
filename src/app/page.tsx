@@ -5,6 +5,8 @@ import Nav from "../components/nav";
 import React from "react";
 
 /*
+  TODO: make your website searchable on google
+  https://medium.com/@davegray_86804/next-js-how-to-submit-your-sitemap-to-google-36a859c4d114  
   GOOD TO HAVE: dark mode! 
 */
 
