@@ -15,6 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Kai Yuan Chi',
   description: 'A place to express myself',
+  verification: { google: "34CUdyf-PWpdAdh9N0jzlqhScMtzK04mQsuKGgfYsQ4" },
 }
 
 export default function RootLayout({
@@ -24,7 +25,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head><meta name="google-site-verification" content="34CUdyf-PWpdAdh9N0jzlqhScMtzK04mQsuKGgfYsQ4" /></head>
       <body className={inter.className}>{children}</body>
     </html>
   )
