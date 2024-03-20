@@ -1,4 +1,5 @@
 import Footer from "../components/footer";
+import Head from 'next/head'
 import Home from "../components/home";
 import Nav from "../components/nav";
 import React from "react";
