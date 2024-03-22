@@ -55,13 +55,15 @@
         position: static;
         margin-top: 12%;
         padding: 4% 24px;
-        max-width: 80%;
+        max-width: 90%;
     }
     .bigtext{
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .smalltext{
-        font-size: 0.5em;
+        font-size: 1em;
+        padding-top: 52px;
+        padding-bottom: 52px;
     }
     .homeText a {
         font-size: 1em;
